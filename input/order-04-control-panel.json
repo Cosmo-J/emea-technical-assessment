@@ -1,0 +1,23 @@
+{
+  "orderNumber": "PO-2026-004640",
+  "erpSystem": "SAP-PP",
+  "material": {
+    "materialNumber": "FG-6420",
+    "description": "Motor Control Panel 400V IP54",
+    "uom": "EA"
+  },
+  "quantity": 40,
+  "plannedStart": "2026-08-17T06:00:00Z",
+  "plannedEnd": "2026-08-19T16:00:00Z",
+  "priority": 3,
+  "plant": "DE01",
+  "routing": [
+    { "operation": "0010", "workCenter": "ASSY-LINE-2", "description": "Panel assembly and wiring", "setupMinutes": 15, "runMinutesPerUnit": 25.0 },
+    { "operation": "0020", "workCenter": "TEST-RIG-1", "description": "Functional and insulation test", "setupMinutes": 20, "runMinutesPerUnit": 12.0 }
+  ],
+  "components": [
+    { "materialNumber": "PM-5501", "description": "Steel enclosure 800x600", "quantityPer": 1.0, "uom": "EA" },
+    { "materialNumber": "EL-7720", "description": "Wiring harness kit", "quantityPer": 1.0, "uom": "EA" },
+    { "materialNumber": "EL-7801", "description": "PLC module 16-I/O", "quantityPer": 1.0, "uom": "EA" }
+  ]
+}

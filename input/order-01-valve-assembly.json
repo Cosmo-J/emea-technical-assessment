@@ -1,0 +1,23 @@
+{
+  "orderNumber": "PO-2026-004512",
+  "erpSystem": "SAP-PP",
+  "material": {
+    "materialNumber": "FG-8842",
+    "description": "Stainless Steel Valve Assembly DN50",
+    "uom": "EA"
+  },
+  "quantity": 250,
+  "plannedStart": "2026-08-03T06:00:00Z",
+  "plannedEnd": "2026-08-05T18:00:00Z",
+  "priority": 2,
+  "plant": "DE01",
+  "routing": [
+    { "operation": "0010", "workCenter": "CNC-LATHE-3", "description": "Turn valve body", "setupMinutes": 45, "runMinutesPerUnit": 4.5 },
+    { "operation": "0020", "workCenter": "ASSY-LINE-1", "description": "Assemble valve", "setupMinutes": 20, "runMinutesPerUnit": 6.0 },
+    { "operation": "0030", "workCenter": "QA-BENCH-2", "description": "Pressure test", "setupMinutes": 10, "runMinutesPerUnit": 2.0 }
+  ],
+  "components": [
+    { "materialNumber": "RM-1001", "description": "Steel bar stock 60mm", "quantityPer": 1.2, "uom": "KG" },
+    { "materialNumber": "PM-2205", "description": "Seal kit DN50", "quantityPer": 1.0, "uom": "EA" }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+    "operationsRequest": {
+        "id": "PO-2026-004640",
+        "operationsType": "Production",
+        "startTime": "2026-08-17T06:00:00Z",
+        "endTime": "2026-08-19T16:00:00Z",
+        "priority": 3,
+        "hierarchyScope": {
+            "id": "DE01",
+            "equipmentLevel": "Site"
+        },
+        "segmentRequirements": [
+            {
+                "id": "PO-2026-004640-0010",
+                "description": "Panel assembly and wiring",
+                "equipmentRequirement": {
+                    "id": "ASSY-LINE-2"
+                },
+                "duration": 1015,
+                "materialRequirements": [
+                    {
+                        "id": "PM-5501",
+                        "materialUse": "Consumed",
+                        "quantity": {
+                            "value": 40.0,
+                            "unitOfMeasure": "EA"
+                        }
+                    },
+                    {
+                        "id": "EL-7720",
+                        "materialUse": "Consumed",
+                        "quantity": {
+                            "value": 40.0,
+                            "unitOfMeasure": "EA"
+                        }
+                    },
+                    {
+                        "id": "EL-7801",
+                        "materialUse": "Consumed",
+                        "quantity": {
+                            "value": 40.0,
+                            "unitOfMeasure": "EA"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "PO-2026-004640-0020",
+                "description": "Functional and insulation test",
+                "equipmentRequirement": {
+                    "id": "TEST-RIG-1"
+                },
+                "duration": 500,
+                "materialRequirements": [
+                    {
+                        "id": "FG-6420",
+                        "materialUse": "Produced",
+                        "quantity": {
+                            "value": 40.0,
+                            "unitOfMeasure": "EA"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

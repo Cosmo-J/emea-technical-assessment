@@ -1,0 +1,41 @@
+{
+    "operationsRequest": {
+        "id": "PO-2026-004655",
+        "operationsType": "Production",
+        "startTime": "2026-08-21T06:00:00Z",
+        "endTime": "2026-08-20T18:00:00Z",
+        "priority": 2,
+        "hierarchyScope": {
+            "id": "DE01",
+            "equipmentLevel": "Site"
+        },
+        "segmentRequirements": [
+            {
+                "id": "PO-2026-004655-0010",
+                "description": "Turn valve body",
+                "equipmentRequirement": {
+                    "id": "CNC-LATHE-3"
+                },
+                "duration": 45,
+                "materialRequirements": [
+                    {
+                        "id": "RM-1001",
+                        "materialUse": "Consumed",
+                        "quantity": {
+                            "value": 0.0,
+                            "unitOfMeasure": "KG"
+                        }
+                    },
+                    {
+                        "id": "FG-8842",
+                        "materialUse": "Produced",
+                        "quantity": {
+                            "value": 0.0,
+                            "unitOfMeasure": "EA"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "operationsRequest": {
+        "id": "PO-2026-004587",
+        "operationsType": "Production",
+        "startTime": "2026-08-04T06:00:00Z",
+        "endTime": "2026-08-06T14:00:00Z",
+        "priority": 2,
+        "hierarchyScope": {
+            "id": "DE01",
+            "equipmentLevel": "Site"
+        },
+        "segmentRequirements": [
+            {
+                "id": "PO-2026-004587-0010",
+                "description": "Mill housing faces",
+                "equipmentRequirement": {
+                    "id": "CNC-MILL-1"
+                },
+                "duration": 990,
+                "materialRequirements": [
+                    {
+                        "id": "RM-2040",
+                        "materialUse": "Consumed",
+                        "quantity": {
+                            "value": 300.0,
+                            "unitOfMeasure": "KG"
+                        }
+                    },
+                    {
+                        "id": "PM-3310",
+                        "materialUse": "Consumed",
+                        "quantity": {
+                            "value": 120.0,
+                            "unitOfMeasure": "EA"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "PO-2026-004587-0020",
+                "description": "Deburr and clean",
+                "equipmentRequirement": {
+                    "id": "DEBURR-1"
+                },
+                "duration": 190,
+                "materialRequirements": []
+            },
+            {
+                "id": "PO-2026-004587-0030",
+                "description": "Dimensional inspection",
+                "equipmentRequirement": {
+                    "id": "QA-BENCH-2"
+                },
+                "duration": 375,
+                "materialRequirements": [
+                    {
+                        "id": "FG-9105",
+                        "materialUse": "Produced",
+                        "quantity": {
+                            "value": 120.0,
+                            "unitOfMeasure": "EA"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

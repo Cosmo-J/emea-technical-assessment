@@ -1,0 +1,60 @@
+{
+    "operationsRequest": {
+        "id": "PO-2026-004601",
+        "operationsType": "Production",
+        "startTime": "2026-08-10T06:00:00Z",
+        "endTime": "2026-08-14T22:00:00Z",
+        "priority": 1,
+        "hierarchyScope": {
+            "id": "PL02",
+            "equipmentLevel": "Site"
+        },
+        "segmentRequirements": [
+            {
+                "id": "PO-2026-004601-0010",
+                "description": "Turn shaft profile",
+                "equipmentRequirement": {
+                    "id": "CNC-LATHE-3"
+                },
+                "duration": 1540,
+                "materialRequirements": [
+                    {
+                        "id": "RM-1001",
+                        "materialUse": "Consumed",
+                        "quantity": {
+                            "value": 400.0,
+                            "unitOfMeasure": "KG"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "PO-2026-004601-0020",
+                "description": "Induction harden",
+                "equipmentRequirement": {
+                    "id": "HT-FURNACE-1"
+                },
+                "duration": 310,
+                "materialRequirements": []
+            },
+            {
+                "id": "PO-2026-004601-0030",
+                "description": "Finish grind bearing seats",
+                "equipmentRequirement": {
+                    "id": "GRIND-2"
+                },
+                "duration": 1275,
+                "materialRequirements": [
+                    {
+                        "id": "FG-7733",
+                        "materialUse": "Produced",
+                        "quantity": {
+                            "value": 500.0,
+                            "unitOfMeasure": "EA"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

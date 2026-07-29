@@ -1,0 +1,23 @@
+{
+  "orderNumber": "PO-2026-004587",
+  "erpSystem": "SAP-PP",
+  "material": {
+    "materialNumber": "FG-9105",
+    "description": "Centrifugal Pump Housing 4-inch",
+    "uom": "EA"
+  },
+  "quantity": 120,
+  "plannedStart": "2026-08-04T06:00:00Z",
+  "plannedEnd": "2026-08-06T14:00:00Z",
+  "priority": 2,
+  "plant": "DE01",
+  "routing": [
+    { "operation": "0010", "workCenter": "CNC-MILL-1", "description": "Mill housing faces", "setupMinutes": 30, "runMinutesPerUnit": 8.0 },
+    { "operation": "0020", "workCenter": "DEBURR-1", "description": "Deburr and clean", "setupMinutes": 10, "runMinutesPerUnit": 1.5 },
+    { "operation": "0030", "workCenter": "QA-BENCH-2", "description": "Dimensional inspection", "setupMinutes": 15, "runMinutesPerUnit": 3.0 }
+  ],
+  "components": [
+    { "materialNumber": "RM-2040", "description": "Aluminium casting blank A356", "quantityPer": 2.5, "uom": "KG" },
+    { "materialNumber": "PM-3310", "description": "Gasket set 4-inch", "quantityPer": 1.0, "uom": "EA" }
+  ]
+}

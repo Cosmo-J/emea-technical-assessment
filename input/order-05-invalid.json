@@ -1,0 +1,20 @@
+{
+  "orderNumber": "PO-2026-004655",
+  "erpSystem": "SAP-PP",
+  "material": {
+    "materialNumber": "FG-8842",
+    "description": "Stainless Steel Valve Assembly DN50",
+    "uom": "EA"
+  },
+  "quantity": 0,
+  "plannedStart": "2026-08-21T06:00:00Z",
+  "plannedEnd": "2026-08-20T18:00:00Z",
+  "priority": 2,
+  "plant": "DE01",
+  "routing": [
+    { "operation": "0010", "workCenter": "CNC-LATHE-3", "description": "Turn valve body", "setupMinutes": 45, "runMinutesPerUnit": 4.5 }
+  ],
+  "components": [
+    { "materialNumber": "RM-1001", "description": "Steel bar stock 60mm", "quantityPer": 1.2, "uom": "KG" }
+  ]
+}

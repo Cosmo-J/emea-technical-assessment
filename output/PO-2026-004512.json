@@ -1,0 +1,68 @@
+{
+    "operationsRequest": {
+        "id": "PO-2026-004512",
+        "operationsType": "Production",
+        "startTime": "2026-08-03T06:00:00Z",
+        "endTime": "2026-08-05T18:00:00Z",
+        "priority": 2,
+        "hierarchyScope": {
+            "id": "DE01",
+            "equipmentLevel": "Site"
+        },
+        "segmentRequirements": [
+            {
+                "id": "PO-2026-004512-0010",
+                "description": "Turn valve body",
+                "equipmentRequirement": {
+                    "id": "CNC-LATHE-3"
+                },
+                "duration": 1170,
+                "materialRequirements": [
+                    {
+                        "id": "RM-1001",
+                        "materialUse": "Consumed",
+                        "quantity": {
+                            "value": 300.0,
+                            "unitOfMeasure": "KG"
+                        }
+                    },
+                    {
+                        "id": "PM-2205",
+                        "materialUse": "Consumed",
+                        "quantity": {
+                            "value": 250.0,
+                            "unitOfMeasure": "EA"
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "PO-2026-004512-0020",
+                "description": "Assemble valve",
+                "equipmentRequirement": {
+                    "id": "ASSY-LINE-1"
+                },
+                "duration": 1520,
+                "materialRequirements": []
+            },
+            {
+                "id": "PO-2026-004512-0030",
+                "description": "Pressure test",
+                "equipmentRequirement": {
+                    "id": "QA-BENCH-2"
+                },
+                "duration": 510,
+                "materialRequirements": [
+                    {
+                        "id": "FG-8842",
+                        "materialUse": "Produced",
+                        "quantity": {
+                            "value": 250.0,
+                            "unitOfMeasure": "EA"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+  "orderNumber": "PO-2026-004601",
+  "erpSystem": "SAP-PP",
+  "material": {
+    "materialNumber": "FG-7733",
+    "description": "Gearbox Input Shaft 42CrMo4",
+    "uom": "EA"
+  },
+  "quantity": 500,
+  "plannedStart": "2026-08-10T06:00:00Z",
+  "plannedEnd": "2026-08-14T22:00:00Z",
+  "priority": 1,
+  "plant": "PL02",
+  "routing": [
+    { "operation": "0010", "workCenter": "CNC-LATHE-3", "description": "Turn shaft profile", "setupMinutes": 40, "runMinutesPerUnit": 3.0 },
+    { "operation": "0020", "workCenter": "HT-FURNACE-1", "description": "Induction harden", "setupMinutes": 60, "runMinutesPerUnit": 0.5 },
+    { "operation": "0030", "workCenter": "GRIND-2", "description": "Finish grind bearing seats", "setupMinutes": 25, "runMinutesPerUnit": 2.5 }
+  ],
+  "components": [
+    { "materialNumber": "RM-1001", "description": "Steel bar stock 60mm", "quantityPer": 0.8, "uom": "KG" }
+  ]
+}
