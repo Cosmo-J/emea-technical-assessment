@@ -1,4 +1,4 @@
-This software was completed according to an assignment created by Rhize as part of an application process.
+This software was completed according to an assignment as part of an application process.
 
 The noteable files include:
     app/services/OrderIngestion.py
