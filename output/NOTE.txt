@@ -1,0 +1,4 @@
+output/PO-2026-004655.json
+Above is the json which corresponds to the intentionally bad input. The reason an output still exists is because I hadn't implemented greater than 0 validation for the first and thus the 0 quantity issue wasn't caught (seen by how all the multiply "quantity values" ended up being 0). 
+
+I've kept the file because the trial and error was part of my reasoning process.
